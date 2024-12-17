@@ -6,7 +6,7 @@ import lombok.Data;
  * 支付请求类
  */
 @Data
-public class AliPay {
+public class PayInfo {
     // 商户订单号
     private String traceNo;
 

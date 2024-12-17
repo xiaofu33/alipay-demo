@@ -7,13 +7,11 @@ import com.alipay.api.request.*;
 import com.alipay.api.response.*;
 import com.google.gson.Gson;
 import com.shuke.alipaydemo.config.AlipayClientConfig;
-import com.shuke.alipaydemo.model.AliPay;
 import com.shuke.alipaydemo.model.RefundInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
